@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1Pl7_LbEzsdEakVIxZAdK3ePgWTnC7E6f
 """
 
-!pip install pyspark
+%pip install pyspark
 
-!pip install opendatasets
+%pip install opendatasets
 
 import opendatasets as od
 od.download("https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images")
@@ -27,8 +27,8 @@ from pyspark.ml.image import ImageSchema
 from pyspark.sql.functions import lit
 from pyspark.ml import Pipeline
 from pyspark.ml.classification import LogisticRegression
-#from pyspark.ml.classification import RandomForestClassifier
-#from pyspark.ml.classification import DecisionTreeClassifier
+from pyspark.ml.classification import RandomForestClassifier
+from pyspark.ml.classification import DecisionTreeClassifier
 from functools import reduce
 from pyspark.mllib.evaluation import MulticlassMetrics
 
@@ -90,8 +90,8 @@ test_df = test_df.withColumn('features', img2vec("image"))
 
 # Testing various classification models
 lr = LogisticRegression(maxIter=5, labelCol="label", regParam=0.01)
-#dt = DecisionTreeClassifier(labelCol='label', featuresCol='features', maxDepth=10)
-#rf = RandomForestClassifier(labelCol='label', featuresCol='features', numTrees=40)
+dt = DecisionTreeClassifier(labelCol='label', featuresCol='features', maxDepth=10)
+rf = RandomForestClassifier(labelCol='label', featuresCol='features', numTrees=40)
 
 
 sparkdn = Pipeline(stages=[lr])
