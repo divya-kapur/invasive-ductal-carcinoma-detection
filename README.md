@@ -16,7 +16,9 @@ Cancerous cells:
 
 
 
-Accurately identifying and classifying breast cancer subtypes is a critical clinical task, and automated approaches offer the potential to improve accuracy by utilizing machine learning models to learn patterns, thereby reducing human error. I developed ML models for precise breast cancer cell detection in histopathological images, enabling real-time alerts for physicians on potential IDC cases. 
+Accurately identifying and classifying breast cancer subtypes is a critical clinical task, and automated approaches offer the potential to improve accuracy by utilizing machine learning models to learn patterns, thereby reducing human error. I developed a few classifiers, including Logistic Regression, RandomForest, and Decision Tree, for precise breast cancer cell detection in histopathological images, enabling real-time alerts for physicians on potential IDC cases. 
+
+Next steps: Improve the scores of the models through further hyperparameter tuning. 
 
 
 
