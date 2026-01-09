@@ -1,5 +1,23 @@
 # invasive-ductal-carcinoma-detection
-Developed ML models for precise breast cancer cell detection in histopathological images, enabling real-time alerts for physicians on potential IDC cases
+Breast cancer is the most common cancer affecting women, with invasive ductal carcinoma (IDC) being the most prevalent subtype. 
+
+Normal cell:
+
+<img width="50" height="50" alt="10253_idx5_x1001_y1251_class0" src="https://github.com/user-attachments/assets/baac8c65-0c37-423b-88dd-2508abacc814" />
+<img width="50" height="50" alt="10253_idx5_x1051_y1251_class0" src="https://github.com/user-attachments/assets/eaa2d677-6a76-4917-a60c-8ac9f6abd00b" />
+<img width="50" height="50" alt="10253_idx5_x1051_y1051_class0" src="https://github.com/user-attachments/assets/45566331-fbe2-4ac4-a157-9c155723e9c8" />
+
+
+Cancerous cell:
+
+<img width="50" height="50" alt="10290_idx5_x1151_y1001_class1" src="https://github.com/user-attachments/assets/1daa96f7-80ae-4a62-a5cc-d57e592c3228" />
+<img width="50" height="50" alt="10278_idx5_x1401_y901_class1" src="https://github.com/user-attachments/assets/4bc0be1e-4bb5-4552-b308-a54879ce411c" />
+<img width="50" height="50" alt="10278_idx5_x1451_y651_class1" src="https://github.com/user-attachments/assets/a18e2b61-f1c9-475c-ac1e-0e44b57305e4" />
+
+
+Accurately identifying and classifying breast cancer subtypes is a critical clinical task, and automated approaches offer the potential to improve efficiency while reducing human error. I developed ML models for precise breast cancer cell detection in histopathological images, enabling real-time alerts for physicians on potential IDC cases. 
+
+
 
 To run project:
   1. Pip install pyspark & opendatasets
