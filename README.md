@@ -1,14 +1,14 @@
 # invasive-ductal-carcinoma-detection
 Breast cancer is the most common cancer affecting women, with invasive ductal carcinoma (IDC) being the most prevalent subtype. 
 
-Normal cell:
+Normal cells:
 
 <img width="50" height="50" alt="10253_idx5_x1001_y1251_class0" src="https://github.com/user-attachments/assets/baac8c65-0c37-423b-88dd-2508abacc814" />
 <img width="50" height="50" alt="10253_idx5_x1051_y1251_class0" src="https://github.com/user-attachments/assets/eaa2d677-6a76-4917-a60c-8ac9f6abd00b" />
 <img width="50" height="50" alt="10253_idx5_x1051_y1051_class0" src="https://github.com/user-attachments/assets/45566331-fbe2-4ac4-a157-9c155723e9c8" />
 
 
-Cancerous cell:
+Cancerous cells:
 
 <img width="50" height="50" alt="10290_idx5_x1151_y1001_class1" src="https://github.com/user-attachments/assets/1daa96f7-80ae-4a62-a5cc-d57e592c3228" />
 <img width="50" height="50" alt="10278_idx5_x1401_y901_class1" src="https://github.com/user-attachments/assets/4bc0be1e-4bb5-4552-b308-a54879ce411c" />
